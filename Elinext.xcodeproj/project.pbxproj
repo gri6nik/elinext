@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		78D62D81E3EBD55BE5C4C039 /* Pods_Elinext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B27BB2DD0BB4A64136D497 /* Pods_Elinext.framework */; };
-		CE41F568231D49FE00425928 /* Cities.json in Sources */ = {isa = PBXBuildFile; fileRef = CE41F567231D49FE00425928 /* Cities.json */; };
+		CE0D67CF2328071C009D20F5 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = CE41F567231D49FE00425928 /* cities.json */; };
+		CE41F568231D49FE00425928 /* cities.json in Sources */ = {isa = PBXBuildFile; fileRef = CE41F567231D49FE00425928 /* cities.json */; };
 		CEAE75BC2319B67900F2399B /* CityCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE75BB2319B67900F2399B /* CityCellTableViewCell.swift */; };
+		CEBE1E5E2327FA310064F58A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE1E5D2327FA310064F58A /* Model.swift */; };
 		CEDDAF0023184A7F00A43F1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDAEFF23184A7F00A43F1E /* AppDelegate.swift */; };
 		CEDDAF0223184A7F00A43F1E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDAF0123184A7F00A43F1E /* LoginViewController.swift */; };
 		CEDDAF0523184A7F00A43F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDDAF0323184A7F00A43F1E /* Main.storyboard */; };
@@ -21,8 +23,9 @@
 /* Begin PBXFileReference section */
 		5EDCB3A41948E8B5B6A46A7B /* Pods-Elinext.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elinext.release.xcconfig"; path = "Target Support Files/Pods-Elinext/Pods-Elinext.release.xcconfig"; sourceTree = "<group>"; };
 		A2B27BB2DD0BB4A64136D497 /* Pods_Elinext.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Elinext.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE41F567231D49FE00425928 /* Cities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Cities.json; sourceTree = "<group>"; };
+		CE41F567231D49FE00425928 /* cities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
 		CEAE75BB2319B67900F2399B /* CityCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCellTableViewCell.swift; sourceTree = "<group>"; };
+		CEBE1E5D2327FA310064F58A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		CEDDAEFC23184A7F00A43F1E /* Elinext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elinext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDDAEFF23184A7F00A43F1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEDDAF0123184A7F00A43F1E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +57,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CE0D67D023280E98009D20F5 /* Cities */ = {
+			isa = PBXGroup;
+			children = (
+				CE0D67D123280EAE009D20F5 /* Cells */,
+				CEDDAF132318676900A43F1E /* CitiesViewController.swift */,
+			);
+			path = Cities;
+			sourceTree = "<group>";
+		};
+		CE0D67D123280EAE009D20F5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CEAE75BB2319B67900F2399B /* CityCellTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE0D67D223280EC6009D20F5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDAF0123184A7F00A43F1E /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CE0D67D323280ED7009D20F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE1E5D2327FA310064F58A /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CEDDAEF323184A7F00A43F1E = {
 			isa = PBXGroup;
 			children = (
@@ -76,13 +112,13 @@
 			isa = PBXGroup;
 			children = (
 				CEDDAEFF23184A7F00A43F1E /* AppDelegate.swift */,
-				CEDDAF0123184A7F00A43F1E /* LoginViewController.swift */,
-				CEDDAF132318676900A43F1E /* CitiesViewController.swift */,
-				CEAE75BB2319B67900F2399B /* CityCellTableViewCell.swift */,
-				CE41F567231D49FE00425928 /* Cities.json */,
+				CE0D67D323280ED7009D20F5 /* Models */,
+				CE0D67D223280EC6009D20F5 /* Login */,
+				CE0D67D023280E98009D20F5 /* Cities */,
 				CEDDAF0323184A7F00A43F1E /* Main.storyboard */,
 				CEDDAF0623184A8300A43F1E /* Assets.xcassets */,
 				CEDDAF0823184A8300A43F1E /* LaunchScreen.storyboard */,
+				CE41F567231D49FE00425928 /* cities.json */,
 				CEDDAF0B23184A8300A43F1E /* Info.plist */,
 			);
 			path = Elinext;
@@ -157,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0D67CF2328071C009D20F5 /* cities.json in Resources */,
 				CEDDAF0A23184A8300A43F1E /* LaunchScreen.storyboard in Resources */,
 				CEDDAF0723184A8300A43F1E /* Assets.xcassets in Resources */,
 				CEDDAF0523184A7F00A43F1E /* Main.storyboard in Resources */,
@@ -222,8 +259,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDDAF142318676900A43F1E /* CitiesViewController.swift in Sources */,
-				CE41F568231D49FE00425928 /* Cities.json in Sources */,
+				CE41F568231D49FE00425928 /* cities.json in Sources */,
 				CEAE75BC2319B67900F2399B /* CityCellTableViewCell.swift in Sources */,
+				CEBE1E5E2327FA310064F58A /* Model.swift in Sources */,
 				CEDDAF0223184A7F00A43F1E /* LoginViewController.swift in Sources */,
 				CEDDAF0023184A7F00A43F1E /* AppDelegate.swift in Sources */,
 			);

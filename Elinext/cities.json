@@ -1,0 +1,61 @@
+{ "City": [
+	{
+		"cityName": "Merida",
+		"countryCode": "VE",
+		"description": "officially known as Santiago de los Caballeros de Mérida"
+	},
+	{
+		"cityName": "Azriqam",
+		"countryCode": "IL",
+		"description": "The moshav was established in 1950 on the lands of the depopulated Palestinian village of Batnia[3] by Jewish refugees from Tunisia"
+	},
+	{
+		"cityName": "Il'ichevka",
+		"countryCode": "UA",
+		"description": "Село"
+	},
+	{
+		"cityName": "Ptitcefabrika",
+		"countryCode": "GE",
+		"description": "Птицефабрика в Грузии"
+	},
+	{
+		"cityName": "Birim",
+		"countryCode": "NG",
+		"description": "Город в Нигерии"
+	},
+	{
+		"cityName": "Gatow",
+		"countryCode": "DE",
+		"description": "A district of south-western Berlin is located west of the Havelsee lake and has forested areas within its boundaries. It is within the borough of Spandau. On 31 December 2002"
+	},
+	{
+		"cityName": "Ruislip",
+		"countryCode": "GB",
+		"description": " Town in Greater London"
+	},
+	{
+		"cityName": "Mkuze",
+		"countryCode": "ZA",
+		"description": "Named Mkhuze or uMkhuze is a small town in Northern KwaZulu-Natal"
+	},
+	{
+		"cityName": "Lhaga",
+		"countryCode": "CN",
+		"description": "Город в Китае"
+	},
+	{
+		"cityName": "Istambul",
+		"countryCode": "TR",
+		"description": "Formerly known as Byzantium and Constantinople"
+	},
+	{
+		"cityName": "Mao",
+		"countryCode": "DO",
+		"description": "The Dominican city of Santa Cruz de Mao"
+	},
+	{
+		"cityName": ""
+	}
+]
+}
