@@ -1,4 +1,4 @@
-{ "City": [
+{ "city": [
 	{
 		"cityName": "Merida",
 		"countryCode": "VE",
@@ -53,9 +53,6 @@
 		"cityName": "Mao",
 		"countryCode": "DO",
 		"description": "The Dominican city of Santa Cruz de Mao"
-	},
-	{
-		"cityName": ""
 	}
 ]
 }
